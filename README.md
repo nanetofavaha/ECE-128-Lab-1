@@ -1,4 +1,4 @@
-# ECE 128 Lab 1: 8-to-1 Multiplexer
+ECE 128 Lab 1: 8-to-1 Multiplexer
 This project implements an 8-to-1 multiplexer (MUX) using Verilog HDL. The MUX has eight data inputs, three select inputs, and one output. The three select inputs determine which of the eight data inputs is passed to the output
 
 The 8:1 MUX was implemented using three different Verilog modeling methods:
@@ -8,7 +8,7 @@ The 8:1 MUX was implemented using three different Verilog modeling methods:
 
 A testbench was used to simulate and verify the functionality of the MUX. The design was also implemented and tested on a Basys 3 FPGA board
 
-## Simulation
+Simulation
 The design was simulated using Xilinx Vivado. To run the simulation:
 1. Create or open the project in Vivado
 2. Add the desired MUX Verilog file as a design source
@@ -18,7 +18,7 @@ The design was simulated using Xilinx Vivado. To run the simulation:
 
 The testbench tests all eight possible combinations of the select inputs
 
-## FPGA Implementation
+FPGA Implementation
 The design was implemented on a Basys 3 FPGA board using Vivado
 
 To implement the design:
